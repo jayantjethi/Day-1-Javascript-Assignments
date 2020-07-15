@@ -1,0 +1,22 @@
+// Explain of various consoles function
+// In javascript, the console is an object which provides access to the browser debugging console. We can open a console in web browser by using: Ctrl + Shift + K for windows and Command + Option + K for Mac. The console object provides us with several different methods, like :
+
+// log()
+// error()
+// warn()
+// clear()
+// time() and timeEnd()
+// table()
+// count()
+// group() and groupEnd()
+// custom console logs
+var a = 5;
+ console.log(a);
+ console.warn(a);
+ console.error(a);
+ console.time(a);
+ console.count(a);
+ console.table(a);
+ console.timeEnd(a);
+ console.group(a);
+ console.clear();
